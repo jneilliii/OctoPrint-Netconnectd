@@ -277,7 +277,7 @@ class NetconnectdSettingsPlugin(
 
         import json
 
-        js = json.dumps(obj, encoding="utf8", separators=(",", ":"))
+        js = json.dumps(obj, separators=(",", ":"))
 
         import socket
 
